@@ -8,4 +8,7 @@ replace (
 	github.com/kyma-incubator/reconciler => github.com/tobiscr/reconciler v0.0.0-20210728194338-3c8de49226d6
 )
 
-require github.com/kyma-incubator/reconciler v0.0.0-20210728170647-333c8ac1768e
+require (
+	github.com/kyma-incubator/reconciler v0.0.0-20210728170647-333c8ac1768e
+	k8s.io/client-go v0.20.2
+)
